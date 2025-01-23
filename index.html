@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wuthering Waves - Accueil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Wuthering Waves - Site Officiel</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="tierlist.html">Tier List</a>
+    <a href="characters.html">Personnages</a>
+    <a href="weapons.html">Armes</a>
+    <a href="echoes.html">Echoes</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Explorez l'univers de Wuthering Waves</h2>
+    <p>Découvrez tout ce qu'il faut savoir sur les personnages, armes, echoes et plus encore.</p>
+    <button onclick="window.location.href='tierlist.html'">Voir la Tier List</button>
+  </section>
+
+  <section class="section">
+    <h2>Derniers Personnages</h2>
+    <div id="last-characters"></div>
+    <button onclick="window.location.href='characters.html'" class="card-button">Tous les Personnages</button>
+  </section>
+
+  <section class="section">
+    <h2>Dernières Armes</h2>
+    <div id="last-weapons"></div>
+    <button onclick="window.location.href='weapons.html'" class="card-button">Toutes les Armes</button>
+  </section>
+
+  <section class="section">
+    <h2>Derniers Echoes</h2>
+    <div id="last-echoes"></div>
+    <button onclick="window.location.href='echoes.html'" class="card-button">Tous les Echoes</button>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
